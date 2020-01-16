@@ -16,10 +16,10 @@
         "value" : "6PAJEJc3sI4fNkPVDOUgmC"
       }, {
         "name" : "version",
-        "value" : "5"
+        "value" : "6"
       } ],
       "additionalInfo" : {
-        "description" : "Mqtt To S3 with Combiner to combine 10 events",
+        "description" : "Mqtt To S3 with Combiner to combine 10 events editing the description for second pull",
         "contentType" : null,
         "documentState" : "Error"
       }
