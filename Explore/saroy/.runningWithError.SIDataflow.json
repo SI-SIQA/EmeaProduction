@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "bD7fiUtUxmRg2xlzNfHOOd",
+    "name" : "runningWithError",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "d6150745-f0e8-4fa4-9785-173c95edda01"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "6PAJEJc3sI4fNkPVDOUgmC"
+      }, {
+        "name" : "version",
+        "value" : "5"
+      } ],
+      "additionalInfo" : {
+        "description" : "Mqtt To S3 with Combiner to combine 10 events",
+        "contentType" : null,
+        "documentState" : "Error"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "9wFUIRX2AsThf9aKyWK8u7",
+    "name" : "tailfile_agentGroup",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0104950B000000000005"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "8Y3f4V5Sbe3jSIyHJda36S",
+    "name" : "AgentGroup",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01049525000000000008"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3JEppWwOI5Cb750LnFjUS0",
+    "name" : "SIAutomation_S3_lin",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0104950B00000000000A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
